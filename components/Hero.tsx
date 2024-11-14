@@ -32,7 +32,7 @@ export const Hero = () => {
             }}  
             className="relative grid min-h-screen place-content-center overflow-hidden px-4 py-24 text-gray-200"
         >
-            <div className="z-10 flex flex-col items-center">
+            <div className="z-10 flex flex-col items-center overflow-hidden">
                 <span className="mb-2 inline-block rounded-full bg-gray-600/50 px-3 py-1.5 text-sm">
                     Welcome to Portfolio
                 </span>
@@ -72,7 +72,7 @@ export const Hero = () => {
                 </div>
             </div>
 
-            <div className="bg-circle-container">
+            <div className="bg-circle-container overflow-hidden">
                 <div className="bg-circle-background"></div>
                 <div className="bg-circle"></div>
             </div>

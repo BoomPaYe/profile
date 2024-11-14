@@ -10,7 +10,7 @@ const socialLinks = [
 export const Footer = () => {
 
   return (
-    <footer className="py-8 max-w-[1200px] mx-auto px-4">
+    <footer className="py-8 max-w-[1200px] mx-auto px-4 overflow-hidden">
       <div className="mt-12 flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col">
         <p className="text-gray-200">
           © 2024. All rights reserved.

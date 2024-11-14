@@ -12,7 +12,7 @@ export const Experience = () => {
     
     return (
     <section className="text-white py-20">
-        <div className="container mx-auto flex flex-col md:flex-row">
+        <div className="container mx-auto flex flex-col md:flex-row overflow-hidden">
             <div className="md:w-1/4 pr-8 mb-12 md:mb-0">
                 <h2 className="text-6xl text-white font-extrabold top-20">Works</h2>
             </div>

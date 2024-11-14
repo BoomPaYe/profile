@@ -17,7 +17,7 @@ const stackItems = [
 
 export const Stack = () => {
     return (
-        <section className="py-8 glass place-content-center" id="stack">
+        <section className="py-8 glass place-content-center overflow-hidden" id="stack">
             <div className="max-w-[1200px] mx-auto px-4 text-center">
                 <h2 className="text-5xl text-black-200 font-bold mb-4">My Stack</h2>
                 <div className=" flex items-center justify-center flex-col rounded-xl p-4 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
